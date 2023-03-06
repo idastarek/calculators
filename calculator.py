@@ -1,4 +1,4 @@
-calculation = input("Wanna do a calculation? (yes/no) ")
+calculation = input("Do you want to do a calculation? (yes/no) ")
 while calculation == "yes":
 
     number1 = float(input("Give me a number: "))
@@ -16,16 +16,18 @@ while calculation == "yes":
         print(float(number1) / float(number2))
     elif operator != '+' or '-' or '*' or '/':
         print("Choose one of the indicated operators.")
-    another_calculation = input("Wanna do another calculation? (yes/no): ")
+    another_calculation = input("Do you want to do another calculation? (yes/no): ")
     if another_calculation == "no":
-        print("Okay, you're done for today!")
+        print("Goodbye!")
         break
 
 
 if calculation == "no":
     print("Okay, no calculating today!")
-elif calculation != "yes" or "no":
+elif calculation != "yes" or calculation != "no":
     print("Invalid input!")
+
+
 
 
 
