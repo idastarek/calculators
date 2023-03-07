@@ -21,7 +21,6 @@ while calculation == "yes":
         print("Goodbye!")
         break
 
-
 if calculation == "no":
     print("Okay, no calculating today!")
 elif calculation != "yes" or calculation != "no":
