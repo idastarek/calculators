@@ -25,7 +25,7 @@ while calculation == "yes":
         print("Okay, you're done for today!")
         break
 
-    calculation = input("Do you want to do a calculation? (yes/no) ")
+#    calculation = input("Do you want to do a calculation? (yes/no) ")
 
 
 if calculation =="no":
